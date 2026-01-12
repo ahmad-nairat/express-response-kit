@@ -1,6 +1,6 @@
 import { HttpSuccessStatus } from "../enum";
 import { normalize } from "../utils";
-import "./index.d";
+import "./types.d";
 import { Response } from "express";
 
 export function patch2xx(res: Response) {

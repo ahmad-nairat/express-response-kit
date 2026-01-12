@@ -1,3 +1,5 @@
+import "./types.d"
+
 // src/index.ts
 import express from "express";
 

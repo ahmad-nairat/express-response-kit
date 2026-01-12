@@ -1,5 +1,5 @@
 import { Response } from "express";
-import "./index.d";
+import "./types.d";
 import { HttpRedirectionStatus } from "../enum";
 
 export const patch3xx = (res: Response) => {

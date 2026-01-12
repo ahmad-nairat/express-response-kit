@@ -3,10 +3,12 @@
     "target": "ES2020",
     "module": "CommonJS",
     "declaration": true,
+    "declarationMap": true,
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src", "src/types"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.d.ts", "src/**/__tests__"]
 }

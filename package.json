@@ -1,6 +1,6 @@
 {
   "name": "express-response-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opinionated response helpers that extend Express.js response with clean, reusable, and type-safe methods.",
   "author": "ahmad-nairat",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node scripts/copy-types.js",
     "release": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",

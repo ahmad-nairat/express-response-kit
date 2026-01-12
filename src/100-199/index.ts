@@ -1,6 +1,6 @@
 import { HttpInfoStatus } from "../enum";
 import { normalize } from "../utils";
-import "./index.d";
+import "./types.d";
 import { Response } from "express";
 
 export const patch1xx = (res: Response) => {

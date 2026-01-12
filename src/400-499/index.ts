@@ -1,4 +1,4 @@
-import "./index.d";
+import "./types.d";
 import { Response } from "express";
 import { HttpClientErrorStatus } from "../enum";
 import { normalize } from "../utils";

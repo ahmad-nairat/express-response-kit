@@ -28,6 +28,10 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=14"
+  },
+  "enginesStrict": true,
   "peerDependencies": {
     "express": ">=4"
   },
